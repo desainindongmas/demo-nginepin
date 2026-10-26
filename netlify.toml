@@ -1,0 +1,8 @@
+# Static demo: all deployable files are already in dist/.
+[build]
+  base = "."
+  publish = "dist"
+  command = "node --check dist/app.js"
+
+[build.environment]
+  NODE_VERSION = "22"
