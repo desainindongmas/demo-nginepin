@@ -70,7 +70,7 @@ Foto ilustrasi dimuat dari Unsplash dan font dari Google Fonts. Keduanya membutu
 
 ## Validasi dan batasan
 
-Delapan pemeriksaan state/event lulus: konsistensi Guest–Admin–Owner, pelunasan/invoice, penolakan overpayment, overlap tanggal, agregasi Enterprise, harga bulanan/tahunan, escaping input tamu, serta rendering seluruh halaman demo.
+Sembilan pemeriksaan state/event lulus: konsistensi Guest–Admin–Owner, pelunasan/invoice, penolakan overpayment, overlap tanggal, agregasi Enterprise, harga bulanan/tahunan, escaping input tamu, rendering seluruh halaman demo, serta perpindahan demo terpandu dari housekeeping ke owner.
 
 **Pengujian visual dan interaksi di browser nyata belum selesai.** Sandbox eksekusi membatasi server/browser; Playwright tidak dapat meluncurkan Chromium. Jalankan QA desktop/mobile dan aksesibilitas di browser sebelum menjadikan demo publik. Tes Node memakai DOM stub dan tidak membuktikan layout, networking aset, atau seluruh perilaku DOM nyata.
 

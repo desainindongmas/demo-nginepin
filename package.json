@@ -1,0 +1,11 @@
+{
+  "name": "demo-nginepin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo interaktif Nginepin untuk operasional penginapan",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node --check dist/app.js && node --test tests/core.test.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
